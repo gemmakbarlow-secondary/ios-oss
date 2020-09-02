@@ -15,6 +15,9 @@ internal final class ProjectNotificationCell: UITableViewCell, ValueCell {
 
   @IBOutlet fileprivate var nameLabel: UILabel!
   @IBOutlet fileprivate var notificationSwitch: UISwitch!
+  
+  @IBOutlet fileprivate var unusednameLabel: UILabel!
+  @IBOutlet fileprivate var notagoodnamenotificationSwitch: UISwitch!
 
   internal override func awakeFromNib() {
     super.awakeFromNib()
