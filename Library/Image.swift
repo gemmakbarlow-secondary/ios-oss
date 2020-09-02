@@ -41,6 +41,19 @@ public func image(
   )?.alpha(alpha)
 }
 
+public func imageTwo(
+  named name: String,
+  inBundle bundle: NSBundleType = AppEnvironment.current.mainBundle,
+  compatibleWithTraitCollection traitCollection: UITraitCollection? = nil,
+  alpha: CGFloat = 1.0
+) -> UIImage? {
+  return image(
+    named: name,
+    inBundle: bundle,
+    compatibleWithTraitCollection: traitCollection
+  )?.alpha(alpha)
+}
+
 extension UIImage {
   fileprivate func alpha(_ value: CGFloat) -> UIImage? {
     UIGraphicsBeginImageContextWithOptions(size, false, scale)
