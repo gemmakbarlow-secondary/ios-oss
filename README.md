@@ -2,7 +2,7 @@
 
 [![Circle CI](https://circleci.com/gh/kickstarter/ios-oss.svg?style=svg)](https://circleci.com/gh/kickstarter/ios-oss)
 
-Welcome to Gemma's attempt to validate Code Climate.
+Welcome to Gemma's attempt to validate Code Climate, in a 'close enough' fashion.
 
 We’ve also open sourced our [Android app](https://github.com/kickstarter/android-oss),
 and read more about our journey to open source [here](https://kickstarter.engineering/open-sourcing-our-android-and-ios-apps-6891be909fcd).
